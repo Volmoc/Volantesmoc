@@ -42,7 +42,7 @@ function HomeContent() {
     setUser(currentUser);
 
     const email = currentUser.email;
-    const isAdmin = email.includes('wildson') || email === 'admin@volantepro.app';
+    const isAdmin = email.includes('Frank') || email === 'volantessmoc@gmail.com';
 
     // REGRA DE REDIRECIONAMENTO COM EXCEÇÃO (ESPIÃO)
     if (isAdmin && !isPreviewMode) {
