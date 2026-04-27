@@ -45,7 +45,7 @@ export default function LoginPage() {
           <div className="w-20 h-20 bg-slate-800 rounded-2xl mx-auto mb-4 flex items-center justify-center shadow-inner border border-slate-700">
              <img src="/icon.png" alt="Logo" className="w-16 h-16 object-contain rounded-xl" onError={(e) => e.target.style.display='none'} />
           </div>
-          <h1 className="text-2xl font-bold text-white tracking-tight">Volante Express</h1>
+          <h1 className="text-2xl font-bold text-white tracking-tight">Volantes moc</h1>
           <p className="text-slate-500 text-sm mt-1">Acesso Restrito</p>
         </div>
 
